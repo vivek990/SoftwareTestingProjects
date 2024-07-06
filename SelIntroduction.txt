@@ -1,0 +1,81 @@
+String
+-----------------
+
+--> String is the object in Java which represents the sequence of a character.
+
+--> We can define String in two ways - (1) String Literal (2) another is using "new" memory allocating operator
+
+
+Literal//
+
+
+String s = "Selenium Introduction";
+String s1 = "Selenium Introduction"; 
+String s3 = "Hello";
+
+
+new//
+
+
+String s4 = new String("Welcome");
+String s5 = new String("Welcome");
+
+------------------------------------------------------------------------------------
+
+
+Locators//
+
+--> Locators are the way to identify an HTML element on a webpage. 
+
+--> Selenium WebDriver uses any of the below locators to identify the element on the page and perform the Action:
+
+ID
+XPath
+CssSelector (CSS- Cascading style sheet)
+name 
+Class Name
+Tag Name
+Link Text
+Partial Link Text
+
+
+
+
+//syntax
+
+(1) Css Selector ---> If "Class" attribute is present -> tagname.class Name {Eg:- div.error} OR .Class Name {Eg:- .error} (when similar tagname)
+
+tagname[attribut='value']:nth-child(index) {when more then one element present} OR  
+tagname[attribute='value'] (Eg:- input[class= 'Wrong Password'])
+
+- if user wants to traverse from "ParentTagname to ChildTagname" when there is no attribute and no links present then the syntex in Css Selector is:
+    ParentTagname ChildTagname {Eg:- form p }
+
+
+                                                                                 |
+(2) XPath ---> //tagname[@attribute='value']  (Eg:- //input[@placeholder='Name'] | //tagname[@attribute='value'][index] {when more then one element present}
+                                                                                 |                                                                                                                                                                  
+- if user wants to traverse from "ParentTagname to ChildTagname" when there is no attribute and no links present then the syntex in XPath is:
+//ParentTagname/ChildTagName {Eg:- //form/input} OR if more than one element present then syntex is //ParentTagname/ChildTagname[index] {Eg:-//form/input[3]}
+                                                                                                
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+1. SDET Club link
+
+https://sdet.club/t/pytb0x-only
+
+
+
+
+2. The Testing Academy all course link.
+
+https://courses.thetestingacademy.com/
+
+
+3. https://sdet.live/project2
+
